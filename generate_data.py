@@ -18,8 +18,7 @@ def load_queries(path):
         queries = f.readlines()
         
     queries = [l.strip() for l in queries]
-    queries = queries[:25]
-    
+
     # assert queries are well-formatted
     
     for i,q in enumerate(queries):
@@ -71,10 +70,12 @@ def add_arguments(sent:str, arg1_start, arg1_end, arg2_start, arg2_end):
             arg1_start, arg2_start = arg2_start, arg1_start
             arg1_end, arg2_end = arg2_end, arg1_end
             arg1_str, arg2_str = "{{ARG2:", "<<ARG1:"
+            end = ("}}", ">>")
         else:
             arg1_str, arg2_str = "<<ARG1:", "{{ARG2:"
+            end = (">>", "}}")
         
-        s_with_args = s_lst[:arg1_start] + [arg1_str] + s_lst[arg1_start:arg1_end+1] + [">>"] + s_lst[arg1_end+1:arg2_start] + [arg2_str] + s_lst[arg2_start:arg2_end+1] + ["}}"] +s_lst[arg2_end+1:]  
+        s_with_args = s_lst[:arg1_start] + [arg1_str] + s_lst[arg1_start:arg1_end+1] + [end[0]] + s_lst[arg1_end+1:arg2_start] + [arg2_str] + s_lst[arg2_start:arg2_end+1] + [end[1]] +s_lst[arg2_end+1:]  
         s_with_args = " ".join(s_with_args).replace("ARG1: ", "ARG1:").replace("ARG2: ", "ARG2:")
         s_with_args = s_with_args.replace(" >>", ">>").replace(" }}", "}}")
         return s_with_args
@@ -99,8 +100,8 @@ def collect_data(queries, queries2results, id2query, ids, num_pairs_per_relation
         if df1.empty or df2.empty: continue
             
         sentences1, sentences2 = df1["sentence_text"].tolist(), df2["sentence_text"].tolist()
-
-        query1, query2 = id2query[p1], id2query[p2] #df1["spike_query"].tolist()[0], df2["spike_query"].tolist()[0]
+        query1, query2 = id2query[id][p1], id2query[id][p2] #df1["spike_query"].tolist()[0], df2["spike_query"].tolist()[0]
+            
         arg1_first_start, arg1_first_end = df1["arg1_first_index"].tolist(), df1["arg1_last_index"].tolist()
         arg2_first_start, arg2_first_end = df1["arg2_first_index"].tolist(), df1["arg2_last_index"].tolist()
         arg1_second_start, arg1_second_end = df2["arg1_first_index"].tolist(), df2["arg1_last_index"].tolist()
@@ -216,6 +217,6 @@ if __name__ == '__main__':
     data = collect_data(queries, queries2results, id2query, ids, num_pairs_per_relation = args.pairs_per_rel)
     data_train, data_dev, all_data = clean_and_partition(data, ids)
     
-    write(data, args.output_dir + "data1.txt")
-    write(data_dev, args.output_dir + "data_dev1.txt")
-    write(data_train, args.output_dir + "data_train1.txt")
+    write(data, args.output_dir + "data.txt")
+    write(data_dev, args.output_dir + "data_dev.txt")
+    write(data_train, args.output_dir + "data_train.txt")
