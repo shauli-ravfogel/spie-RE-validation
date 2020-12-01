@@ -1,0 +1,422 @@
+<E|U+C>arg1:virus $infection $causes a <E|U+C>arg2:condition	1
+<E|U+C>arg1:virus $infection, which $causes a <E|U+C>arg2:condition	1
+<E|U+C>arg1:virus $infection $results $in <E|U+C>arg2:condition	1
+<E|U+C>arg1:virus $infection, which $results $in <E|U+C>arg2:condition	1
+<E|U+C>arg2:condition $is $the $result of <E|U+C>arg1:virus $infection	1
+<E|U+C>arg2:condition, which $is $the $result of <E|U+C>arg1:virus $infection	1
+<E|U+C>arg2:condition $is $[l=cause|trigger]caused $by <E|U+C>arg1:virus $infection	1
+as a result of <E|U+C>arg1:virus $infection, <E|U+C>arg2:condition $can $develop	1
+infected <E|U+C>arg1:patients $usually $develop <E|U+C>arg2:[entity]respiratory illness	2
+infected <E|U+C>arg1:patients $show $signs $of <E|U+C>arg2:[entity]respiratory illness	2
+<E|U+C>arg2:[entity]respiratory illness $is $observed in infected <E|U+C>arg1:patients	2
+a <E|U+C>arg1:subset of $patients $progress to <E|U+C>arg2:hemorrhagic fever	3
+a <E|U+C>arg1:subset $of $patients $show $signs $of <E|U+C>arg2:hemorrhagic fever	3
+people with <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma are $susceptible to <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	4
+<E|U+C>arg1:something $[l]are $susceptible $to <E|U+C>arg2:something	4
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma :is $more $common in people with <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	4
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma :is $more $common in <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma patients	4
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma :is a common $comorbidity in people with <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	4
+the $comorbidity of <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma and <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	4
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma :is a common $comorbidity in <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma patients	4
+<E|U+C>arg1:asthmatic $patients are $[lemma=prone|susceptible]susceptible $to <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma disease	4
+<E|U+C>arg1:low blood oxygen levels are a $risk factor in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION|COVID-19]COVID-19 infection	5
+<E|U+C>arg1:something, a $risk $factor $for <E|U+C>arg2:something	5
+<E|U+C>arg1:low blood oxygen levels poses $risk in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION|COVID-19]COVID-19 $infection	5
+<E|U+C>arg1:[word]age is another $risk $factor for both morbidity and mortality in <E|U+C>arg2:COVID-19 patients	5
+<E|U+C>arg1:[word]obesity is another $risk $factor for both morbidity and mortality in <E|U+C>arg2:COVID-19 patients	5
+<E|U+C>arg1:low blood oxygen levels are a $risk factor in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	5
+<E|U+C>arg1:something is identified as a $risk $factor for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	5
+<E|U+C>arg1:low blood oxygen levels poses $risk in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	5
+<E|U+C>arg1:[word]age is another $risk $factor for both morbidity and mortality in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	5
+<E|U+C>arg1:[word]Obesity is another $risk $factor for both morbidity and mortality in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma patients	5
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma is a $risk $factor in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	5
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol is $not useful for treating <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol is $not a $useful treatment for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol is $not $effective in treating <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $is $not $effective against <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $is $not $recommended against <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $should $not $be $treated with <E|U+C>arg1:something	6
+<E|U+C>arg1:something $is $contraindicated in $patients with <E|U+C>arg2:[e]asthme	6 
+<E|U+C>arg1:something $is $contraindicated in <E|U+C>arg2:[e=DISEASE]asthma	6 
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $should $not $be $used to $treat <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	6
+<E|U+C>arg1:[e]stroke is a $complication of <E|U+C>arg2:[e=COVID-19|DISEASE|ORGANISM|ORGANISM_SUBSTANCE]COVID-19 infection	7
+<E|U+C>arg1:[e]stroke is a $complication of <E|U+C>arg2:flu :vaccination	7
+<E|U+C>arg1:[e]stroke, which is a $complication of <E|U+C>arg2:flu :vaccination	7
+among the $complications trigerred $by <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma is <E|U+C>arg1:[e]stroke	7
+the $complications of <E|U+C>arg2:flu $infection include <E|U+C>arg1:[e]stroke	7
+the recommended $quarantine period in <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma infection is <E|U+C>arg2:14 :[w]days	8
+patients diagnosed with <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma should be $quarantined for <E|U+C>arg2:14 :[w]days	8 
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma patients should be $quarantined for <E|U+C>arg2:14 :[w]days	8 
+<E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]COVID-19 patients should be $quarantined for <E|U+C>arg2:14 :[w]days	8 
+<E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]COVID-19 $[l=infect|invade|damage]infects <E|U+C>arg2:lung $cells	9
+<E|U+C>arg2:lung $cells are $infected by <E|U+C>arg1:[e=COVID_19|ORGANISM|ORGANISM_SUBSTANCE|ORGANISM_SUBDIVISION|DISEASE]COVID-19	9
+<E|U+C>arg2:lung $[l=cell|tissue]cells $infected by <E|U+C>arg1:[e]COVID-19	9
+<E|U+C>arg1:influenza $virus $[l]infects <E|U+C>arg2:lung $cells	9
+<E|U+C>arg1:influenza $virus $[l]invades to <E|U+C>arg2:lung $cells	9
+<E|U+C>arg1:influenza $virus $[l]enters the <E|U+C>arg2:lung $cells	9
+<E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]COVID-19 $[l=invade|enter|infect|damage]invades <E|U+C>arg2:lung $tissue	9
+<E|U+C>arg2:lung $tissue is $[l=infect|invade|damage|enter]infected by <E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]COVID-19	9
+<E|U+C>arg1:influenza $virus $[l=invade|enter|infect|damage]invades to <E|U+C>arg2:lung $tissue	9
+<E|U+C>arg1:something $[l=activate|bind|regulate|inhibit|damage|enter]activates the <E|U+C>arg2:ATP $receptor	10
+<E|U+C>arg1:something $[l]binds $to the <E|U+C>arg2:ATP $receptor	10
+<E|U+C>arg1:[e]COVID-19 activates the <E|U+C>arg2:ATP $receptor	10
+<E|U+C>arg1:[e=ORGANISM_SUBSTANCE]COVID-19 activates the <E|U+C>arg2:ATP $receptor	10
+<E|U+C>arg2:ATP $receptor is activated by <E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBSTANCE]COVID-19	10
+<E|U+C>arg2:ATP $receptor, which is activated by <E|U+C>arg1:[e=COVID-19|ORGANISM|ORGANISM_SUBSTANCE]COVID-19	10
+<E|U+C>arg2:ATP $receptor is $[l]activated $by <E|U+C>arg1:something	10
+<E|U+C>arg2:ATP $receptor, which is $[l]activated $by <E|U+C>arg1:something	10
+The <E|U+C>arg1:flu $virus $originated in <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats	11
+The <E|U+C>arg1:flu $virus, which $originated in <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats	11
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats are the $hosts of the <E|U+C>arg1:flu $virus	11
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats are a $vector $of $transmission for <E|U+C>arg1:something	11
+<E|U+C>arg1:flu $virus $transmitted $from <E|U+C>arg2:[e]bats	11
+<E|U+C>arg1:something $transmitted $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]something	11
+$transmission $of <E|U+C>arg1:something $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats	11
+<E|U+C>arg2:[e]bats are a $reservoir $of <E|U+C>arg1:[e]something	11
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats $[l]shed <E|U+C>arg1:something $virus	11
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats $[l]shed <E|U+C>arg1:[e]COVID-19	11
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]bats $[l]shed <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE|ORGANISM_SUBDIVISION]COVID-19	11
+<E|U+C>arg1:flu $virus $[l=evolve|diverge]evolved $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]something	12
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]flu $[l=evolve|diverge]evolved $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something	12
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]flu, that $[l=evolve|diverge]evolved $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something	12
+the $[w=evolution|divergence]evolution $of <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE]flu $from <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE]something	12
+The $mechanism $of $action of <E|U+C>arg1:paracetamol is <E|U+C>arg2:activation of something	13
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $[lemma=word|act]works $by <E|U+C>arg2:activation of glocuse	13
+<E|U+C>arg2:inhibition of kinases is the $[lemma=mode|mechanism]mode $of $action of <E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol	13
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $exerts its influnce $by <E|U+C>arg2:ligand activation	13
+the $[lemma=effect|influence|action]effect of <E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol is $attributed to <E|U+C>arg2:ligand activation	13
+something can be $[l=transmit|cross]transmitted $from <E|U+C>arg1:something $to <E|U+C>arg2:something	14
+<E|U+C>arg1:someone can $[l=transmit|cross]transmit something $to <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]someone	14
+$[e=COVID-18|ORGANISM|ORGANISM_SUBSTANCE]COVID-19 $[l]crosses from <E|U+C>arg1:someone $to <E|U+C>arg2:someone	14
+something, $[l]transmitted $to <E|U+C>arg2:someone $from <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]someone	14
+$[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]COVID-19 is $transmitted from <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]someone $to <E|U+C>arg2:someone	14
+$[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]COVID-19, that is $transmitted from <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]someone $to <E|U+C>arg2:someone	14
+$transmission $of something $from <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE]bats $to <E|U+C>arg2:someone	14
+<E|U+C>arg1:SCD $[l]genotypes share high $risk for <E|U+C>arg2:something	15
+<E|U+C>arg1:[e=DNA|GENE_OR_GENE_PRODUCT]SCD share high $risk for <E|U+C>arg2:something	15
+<E|U+C>arg1:SCD $[l]genotypes is a $risk factor for <E|U+C>arg2:something	15
+<E|U+C>arg1:[e=DNA|GENE_OR_GENE_PRODUCT]SCD is a $risk $factor for <E|U+C>arg2:something	15
+<E|U+C>arg1:SCD $[l]genotypes provide $protection against <E|U+C>arg2:something	15
+<E|U+C>arg1:[e=DNA|GENE_OR_GENE_PRODUCT]SCD provide $protection against <E|U+C>arg2:something	15
+<E|U+C>arg1:SCD $[l]genotypes provide $immunity against <E|U+C>arg2:something	15
+<E|U+C>arg2:something is $more $common in <E|U+C>arg1:SCD $[l]genotypes	15
+<E|U+C>arg1:SCD $[l]polymorphism share high $risk for <E|U+C>arg2:something	15
+<E|U+C>arg1:SCD $[l]polymorphism provide $protection against <E|U+C>arg2:something	15
+<E|U+C>arg1:SCD $[l]polymorphism provide $immunity against <E|U+C>arg2:something	15
+<E|U+C>arg2:something is $more $common in <E|U+C>arg1:SCD $[l]polymorphism	15
+<E|U+C>arg1:SCD $[l]polymorphism is a $risk factor for <E|U+C>arg2:something	15
+<E|U+C>arg1:white $cells $[l]attack the <E|U+C>arg2:flu $virus	16
+<E|U+C>arg1:white $cells $[l]prevent the <E|U+C>arg2:flu $infection	16
+<E|U+C>arg1:white $cells $[l]provide $protection against <E|U+C>arg2:flu $virus	16
+<E|U+C>arg1:white $cells $[l]protect against <E|U+C>arg2:flu $virus	16
+<E|U+C>arg1:white $cells $[l]provide $protection against <E|U+C>arg2:flu $infection	16
+<E|U+C>arg1:white $cells $[l]protect against <E|U+C>arg2:flu $infection	16
+<E|U+C>arg1:white $cells $[l]destroy the <E|U+C>arg2:flu $virus	 16
+<E|U+C>arg2:flu $virus is $[l=attack|destroy|incapacitate|neutralize]attacked by <E|U+C>arg1:white cells	16
+<E|U+C>arg2:flu $virus is $[l]destroyed by <E|U+C>arg1:white $cells	16
+<E|U+C>arg1:something is a $countermeasure against <E|U+C>arg2:something	17
+<E|U+C>arg1:something, a $countermeasure against <E|U+C>arg2:something	17
+<E|U+C>arg1:something, which is a $countermeasure against <E|U+C>arg2:something	17
+<E|U+C>arg1:something $is $useful $against <E|U+C>arg2:something	17
+<E|U+C>arg1:something $[l]contributes to the $spread of <E|U+C>arg2:something infection	18
+<E|U+C>arg1:something $[l]eases the $spread of <E|U+C>arg2:something infection	18
+<E|U+C>arg1:something $[l=prevent|help|facilitate|ease]prevents the $spread of <E|U+C>arg2:something infection	18
+<E|U+C>arg1:something, which $[l=prevent|help|facilitate|ease]prevents the $spread of <E|U+C>arg2:something infection	18
+<E|U+C>arg1:something will $[l=prevent|help|ease|facilitate]help <E|U+C>arg2:something infection $to $spread	18
+<E|U+C>arg1:something $[l=help|prevent|ease|facilitate]helps <E|U+C>arg2:something infection $to $spread	18
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $treats <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	19
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $is $useful $against <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	19
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol, a $treatment for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	19
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol $is $a $treatment for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma.	 19
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $should $be $treated with <E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol	19
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol is used $to $treat <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	19
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $is $treated with <E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]paracetamol	19
+<E|U+C>arg1:something is $genetically $related to <E|U+C>arg2:something	 20
+<E|U+C>arg1:something, which is $genetically $related to <E|U+C>arg2:something	20
+<E|U+C>arg1:something $and <E|U+C>arg2:something are $genetically $related	20
+<E|U+C>arg1:something $and <E|U+C>arg2:something share $a $common $[w=origin|ancestry|ancestor]ancestry	20
+the $genetic $relation between <E|U+C>arg1:something $and <E|U+C>arg2:something	20
+<E|U+C>arg1:flu $virus interacts with the <E|U+C>arg2:immune $system	21
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]flu interacts with the <E|U+C>arg2:immune $system	21
+<E|U+C>arg1:flu $[w=virus|infection]infection influences the <E|U+C>arg2:immune $system	21
+<E|U+C>arg1:flu $[w=infection|virus]infection, which influences the <E|U+C>arg2:immune $system	21
+the <E|U+C>arg2:immune $system is influenced from <E|U+C>arg1:flu $infection	21
+the <E|U+C>arg2:immune $system is influenced from <E|U+C>arg1:flu $virus	21
+<E|U+C>arg1:glocuse $blood $levels are $[l=reduce|elevate]elevated in <E|U+C>arg2:something	22
+<E|U+C>arg1:glocuse $blood $levels are an $indication of <E|U+C>arg2:something	22
+$high $blood <E|U+C>arg1:glocuse is a $sign of <E|U+C>arg2:something	22
+low $blood <E|U+C>arg1:glocuse is a $[l=sign|indication|symptom]sign of <E|U+C>arg2:something	22
+low $blood <E|U+C>arg1:glocuse, which is a $[l=sign|indication|symptom]sign of <E|U+C>arg2:something	22
+low $blood <E|U+C>arg1:glocuse, a $[l=sign|indication|symptom]sign of <E|U+C>arg2:something	22
+the $symptoms of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma are <E|U+C>arg2:[e]stroke	23
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $symptoms $such $as <E|U+C>arg2:[e]stroke	23
+<E|U+C>arg2:[e]stroke, $a $[l=symptom|sign]symptom $of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	23
+the $[l=sign|symptom]signs of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma are <E|U+C>arg2:[e]stroke	23
+the $[l=symptoms|sign]symptoms of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $include <E|U+C>arg2:something	23
+<E|U+C>arg2:something is $a $[w=symptom|sign]sign $of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	23
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma is $manifested by <E|U+C>arg2:something	23
+people $infected $with <E|U+C>arg1:something $[l]experience <E|U+C>arg2:something	23
+people $infected $with <E|U+C>arg1:something $[l]show $signs $of <E|U+C>arg2:something	23
+the $clinical $manifestations of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma include <E|U+C>arg2:something	23
+<E|U+C>arg2:something is a $symptom of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	23
+<E|U+C>arg1:something $[l=encourage|trigger|inhibit]encourages the $production of <E|U+C>arg2:something	24
+<E|U+C>arg1:something, that $[l=encourage|trigger|inhibit]encourages the $production of <E|U+C>arg2:something	24
+<E|U+C>arg1:something $[l=trigger|encourage]triggers the body $to $produce <E|U+C>arg2:something	24
+<E|U+C>arg1:something can $[l=increase|improve|help]increase $survival in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION|CANCER]something	25
+<E|U+C>arg1:something can $[w=decrease|prevent|increase]decrease $death rates in <E|U+C>arg2:[e=DISEASE|CANCER|PATHOLOGICAL_FORMATION]something	25
+$survival in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION|CANCER]something is $improved by arg1:something	25
+<E|U+C>arg1:something, that improved $survival in <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION|CANCER]something	25
+$[lemma=treatment|management]treatment for <E|U+C>arg1:something should $focus on <E|U+C>arg2:something	26
+<E|U+C>arg1:something is $pivotal in <E|U+C>arg2:[e=DISEASE]something :[lemma=treatment|management]treatment	26
+<E|U+C>arg2:something is a $main $part in <E|U+C>arg1:something $treatment	26
+<E|U+C>arg1:something $[lemma=cause|induce]causes $death $[w=within|after]within <E|U+C>arg2:[e]10 days	27
+animals $infected with <E|U+C>arg1:something $died $within <E|U+C>arg2:something	27
+in <E|U+C>arg1:something $infection $death $occurred $after <E|U+C>arg2:something	27
+the $duration of <E|U+C>arg1:[e=DISEASE]something is <E|U+C>arg2:[e]10 days	28
+<E|U+C>arg1:something $infection $[l]lasts <E|U+C>arg2:10 days	28
+animals $infected with <E|U+C>arg1:something $[l]recover after <E|U+C>arg2:10 days	28
+<E|U+C>arg1:something $is a $first $symptom $of <E|U+C>arg2:something	29
+<E|U+C>arg1:something $is a $first $sign $of <E|U+C>arg2:something	29
+the $first $symptom $of <E|U+C>arg2:something $[l]is <E|U+C>arg1:something	29
+the $first $sign $of <E|U+C>arg2:something $[l]is <E|U+C>arg1:something	29
+<E|U+C>arg2:something $is $initially $manifested with <E|U+C>arg1:something	29
+<E|U+C>arg2:[e=DISEASE]something $initially $[l]presents with <E|U+C>arg1:something	29
+<E|U+C>arg2:something $[l]is the $initial $manifestation of <E|U+C>arg1:something	29
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients are $contagious $for <E|U+C>arg2:10 days	30
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients $remain $contagious $for <E|U+C>arg2:10 days	30
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients are $infectious $for <E|U+C>arg2:10 days	30
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients $remain $infectious $for <E|U+C>arg2:10 days	30
+patients infected with <E|U+C>arg1:[e]COVID-19 are $infectious for <E|U+C>arg2:10 days	30
+<E|U+C>arg1:asthma patients are $symptomatic $for <E|U+C>arg2:something days	31
+<E|U+C>arg1:[e]COVID-19 $patients remain $symptomatic $for <E|U+C>arg2:something days	31
+<E|U+C>arg1:[e]COVID-19 $patients $show $symptoms $for <E|U+C>arg2:something $days	31
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients remain $symptomatic $for <E|U+C>arg2:something $days	31
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $patients $show $symptoms $for <E|U+C>arg2:something $days	31
+the $symptoms of <E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $last for <E|U+C>arg2:10 days	31
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $symptoms $last for <E|U+C>arg2:10 days	31
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]something $does $not $transmit to <E|U+C>arg2:someone	32
+<E|U+C>arg1:something $infection $does $not $transmit to <E|U+C>arg2:someone	32
+<E|U+C>arg1:something $virus $does $not $transmit to <E|U+C>arg2:someone	32
+<E|U+C>arg1:something $virus $does $not $infect <E|U+C>arg2:someone	32
+<E|U+C>arg2:someone $[l]is $not $affected from <E|U+C>arg1:something $infection	32
+<E|U+C>arg1:something $virus $does $not $affect <E|U+C>arg2:someone	32
+<E|U+C>arg2:someone $[l]are $immune $to <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE]something	32
+<E|U+C>arg1:something $virus affects the <E|U+C>arg2:something $ligand	33
+<E|U+C>arg1:something $virus affects the <E|U+C>arg2:[e]respiratory $system	33
+<E|U+C>arg1:something $infection affects the <E|U+C>arg2:something $ligand	33
+<E|U+C>arg1:something $[l]infection affects the <E|U+C>arg2:[e]respiratory $system	33
+<E|U+C>arg1:something $was first $isolated $from <E|U+C>arg2:soil	34
+<E|U+C>arg1:something $was $first $detected $in <E|U+C>arg2:soil	34
+<E|U+C>arg1:something $was first $discovered $in <E|U+C>arg2:human :saliva	34
+<E|U+C>arg1:something $[l]spreads $[word=through]by <E|U+C>arg2:something	35
+<E|U+C>arg2:something is a $medium of $transmission of <E|U+C>arg1:something	35
+<E|U+C>arg1:something $virus can spread through <E|U+C>arg2:[w]droplets	35
+the $modes $of $transmission of <E|U+C>arg1:something $virus $include <E|U+C>arg2:[w]droplets	35
+the $modes $of $transmission of <E|U+C>arg1:something $virus $include <E|U+C>arg2:airborne particles	35
+<E|U+C>arg1:[e]COVID-19 can spread through <E|U+C>arg2:[w]droplets	35
+<E|U+C>arg1:[e]COVID-19 can spread through <E|U+C>arg2:[w]contact	35
+<E|U+C>arg1:[e]COVID-19 can spread through <E|U+C>arg2:[w]airborne particles	35
+the primary $[l]route $of <E|U+C>arg1:[e]COVID-19 infection is <E|U+C>arg2:something	35
+the primary $[l]route $of $transmission of <E|U+C>arg1:[e]COVID-19 infection is <E|U+C>arg2:something	35
+the primary $[l]route $of $infection of <E|U+C>arg1:[e]COVID-19 is <E|U+C>arg2:something	35
+the primary $[l]route $of <E|U+C>arg1:something $infection is <E|U+C>arg2:something	35
+the $modes $of $transmission of <E|U+C>arg1:[e]COVID-19 $include <E|U+C>arg2:[w]droplets	35
+<E|U+C>arg2:[w]droplet $transmission of <E|U+C>arg1:[e]COVID-19	35
+<E|U+C>arg2:[w]droplet $transmission of <E|U+C>arg1:flu $virus	35
+arg2:[w]airborne $transmission of <E|U+C>arg1:[e]COVID-19	35
+arg2:[w]airborne $transmission of <E|U+C>arg1:flu $virus	35
+the <E|U+C>arg1:flu $virus is <E|U+C>arg2:[w]airborne	35
+the <E|U+C>arg1:[e]COVID-19 is <E|U+C>arg2:[w]airborne	35
+<E|U+C>arg1:asthma $is $not $a $risk $factor for <E|U+C>arg2:asthma	36
+<E|U+C>arg1:asthma $poses $no $risk for <E|U+C>arg2:asthma	36
+<E|U+C>arg1:asthma patients $are $not $suspectible to <E|U+C>arg2:asthma	36
+<E|U+C>arg1:[e=COVID-19|DISEASE|ORGANISM]COVID-19 $fatality $rates are <E|U+C>arg2:something	37
+<E|U+C>arg2:[e]10 $% of <E|U+C>arg1:[e=COVID-19|DISEASE|ORGANISM]COVID-19 patients $die	37
+<E|U+C>arg1:[e=COVID-19|ORGANISM]COVID-19 $death $rates are <E|U+C>arg2:something	37
+<E|U+C>arg1:[e=COVID-19|DISEASE|ORGANISM]COVID-19 $results $in $death in <E|U+C>arg2:19 $% of the cases	37
+<E|U+C>arg1:[e=COVID-19|DISEASE|ORGANISM]COVID-19 $results $in $death in <E|U+C>arg2:19% of the cases	37
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $death $rates are <E|U+C>arg2:[e]9 $%	37
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $fatality $rates are <E|U+C>arg2:[e]9 $%	37
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $causes $death in <E|U+C>arg2:[e]9 $% of the cases	37
+<E|U+C>arg1:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $results $in $death in <E|U+C>arg2:[e]9 $% of the cases	37
+the $enzyme <E|U+C>arg1:A $[l]interacts with the $enzyme <E|U+C>arg2:B	38
+the $enzyme <E|U+C>arg1:A $[l]activates the $enzyme <E|U+C>arg2:B	38
+the $enzyme <E|U+C>arg1:A $[l]regulates the $enzyme <E|U+C>arg2:B	38
+the $enzyme <E|U+C>arg1:A $[l]inhibits the $enzyme <E|U+C>arg2:B	38
+the $protein <E|U+C>arg1:A $[l]interacts with the $protein <E|U+C>arg2:B	38
+the <E|U+C>arg1:[e=PROTEIN]A $[l=interact]interacts with <E|U+C>arg2:[e=PROTEIN]B	38
+the <E|U+C>arg1:[e=PROTEIN]A $[l=influence|inhibit|activate|regulate]activate <E|U+C>arg2:[e=PROTEIN]B	38
+the $protein <E|U+C>arg1:A $[l=activate|regulate|inhibit]activates the $protein <E|U+C>arg2:B	38
+$protein-protein $interaction between <E|U+C>arg1:something :and <E|U+C>arg2:something	38
+the $[l]interaction between <E|U+C>arg1:[e=PROTEIN]A and <E|U+C>arg2:[e=PROTEIN]B	38
+<E|U+C>arg1:something $[l]inhibits the <E|U+C>arg2:something $enzyme	39
+<E|U+C>arg2:something $enzyme is $inhibited by <E|U+C>arg1:something	39
+<E|U+C>arg1:something $[l]inhibits the <E|U+C>arg2:something $protein	39
+<E|U+C>arg2:something $protein is $inhibited by <E|U+C>arg1:something	39
+<E|U+C>arg1:something $is an $inhibitor of <E|U+C>arg2:something	39
+$outbreak $of <E|U+C>arg2:[e]MERS-CoV $occurred $in <E|U+C>arg1:[e]France	40
+<E|U+C>arg2:[e]MERS-CoV $pandemic occurred $in <E|U+C>arg1:[e]France	40
+<E|U+C>arg2:[e]MERS-CoV $epidemic occurred $in <E|U+C>arg1:[e]France	40
+$outbreak $of <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $occurred $in <E|U+C>arg1:[e]France	40
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $pandemic $[lemma=start|begin|occur|report]began $in <E|U+C>arg1:[e]France	40
+<E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $epidemic $[lemma=start|begin|occur|report]began $in <E|U+C>arg1:[e]France	40
+$outbreak of <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma $in <E|U+C>arg1:[e]France	40
+$outbreak $of <E|U+C>arg2:[e]MERS-CoV $in <E|U+C>arg1:[e]France	40
+<E|U+C>arg1:something $[l=induce|trigger|cause|create]induces $[l=immunity|resistence]immunity $against <E|U+C>arg2:something	41
+$immunity against <E|U+C>arg1:something can be $[l]achieved $using <E|U+C>arg2:something	41
+patients treated with <E|U+C>arg1:something $showed $[l=immunity|resistence]immunity $against <E|U+C>arg2:something	41
+<E|U+C>arg1:something $[l]is $a $pretreatment for <E|U+C>arg2:something	42
+<E|U+C>arg1:something $[l]is $a $prophylactic treatment for <E|U+C>arg2:something	42
+<E|U+C>arg1:something is a $[l]prophylactic $[w=against|for]for <E|U+C>arg2:something	42
+<E|U+C>arg1:something is currently $under $research $for <E|U+C>arg2:asthma	43
+<E|U+C>arg1:something is an $experimental $[l=treatment|agent|medicine|drug|vaccine]treatment $for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	43
+<E|U+C>arg1:something is studied as a $future $treatment $for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	43
+<E|U+C>arg1:something is a $future $treatment $for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	43
+<E|U+C>arg1:something is $[l=ivestigate|study|evaluate]investigated as a $[l=treatment|agent|medicine|drug|vaccine]treatment $for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	43
+<E|U+C>arg1:something is $a $potential $[l=treatment|medicine|drug|vaccine]treatment $for <E|U+C>arg2:[e=DISEASE|PATHOLOGICAL_FORMATION]asthma	43
+<E|U+C>arg1:something can be $[l=detect|identify]identified $[w=with|by]with <E|U+C>arg2:microscope	44
+<E|U+C>arg1:something is $[l=detect|identify]identified $[w=with|by]with <E|U+C>arg2:microscope	44
+<E|U+C>arg2:HPLC was $[l]performed $to $[w=identify|detect]identify <E|U+C>arg1:something	44
+<E|U+C>arg2:microscope was $used to $screen $for <E|U+C>arg1:something	44
+<E|U+C>arg1:something was $[w=described|reported|observed]described $by <E|U+C>arg2:someone	45
+<E|U+C>arg1:something was first $[w=described|reported|observed]described $by <E|U+C>arg2:someone	45
+<E|U+C>arg2:someone $first $[w=described|reported|observed]described <E|U+C>arg1:something	 45
+<E|U+C>arg1:something was $named $by <E|U+C>arg2:someone	45
+<E|U+C>arg2:someone $discovered <E|U+C>arg1:something	45
+<E|U+C>arg1:flu $virus $[l]persists for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+<E|U+C>arg1:[e=DISEASE|ORGANISM]COVID-19 $[l]persists for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+<E|U+C>arg1:[e]COVID-19 $[l]persists for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+<E|U+C>arg1:[e]COVID-19's $persistence is <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+a study shows $persistence of <E|U+C>arg1:flu $virus for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+a study shows $persistence of <E|U+C>arg1:[e]COVID-19 for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+a study shows $persistence of <E|U+C>arg1:[e=DISEASE|ORGANISM|ORGANISM|ORGANISM_SUBSTANCE]COVID-19 for <E|U+C>arg2:10 $[lemma=day|week|month]days	46
+<E|U+C>arg1:[e]COVID-19 $persists $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e]COVID-19 $can $survive $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e]COVID-19 $[l]remains $viable $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e]COVID-19 $[l]can $last $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e]COVID-19 $[l]remains $infectious $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:flu $virus $persists $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:flu $virus $can $survive $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]flu $can $survive $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:flu $virus $[l]remains $viable $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:flu $virus $[l]can $last $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:flu $virus $[l]remains $infectious $on <E|U+C>arg2:surfaces	47
+<E|U+C>arg1:[e]COVID-19 $persists $on surfaces $for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:[e]COVID-19 $can $survive $on surfaces $for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:[e]COVID-19 $[l]remains $viable $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:[e]COVID-19 $[l]can $last $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:[e]COVID-19 $[l]remains $infectious $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:flu $virus $persists $on surfaces for <E|U+C>arg2:10 days	 48
+<E|U+C>arg1:flu $virus $can $survive $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE|COVID-19]flu $can $survive $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:flu $virus $[l]remains $viable $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:flu $virus, which can $[l=persist|detect|live|survive]persist $on surfaces for <E|U+C>arg2:10 days	48
+<E|U+C>arg1:flu $virus $[l]can $last $on surfaces for <E|U+C>arg2:10 days	 48
+<E|U+C>arg1:flu $virus $[l]remains $infectious $on surfaces for <E|U+C>arg2:10 days	48
+in <E|U+C>arg1:10% of the cases, <E|U+C>arg2:[e]COVID-19 patients $show $no $symptoms	49
+in <E|U+C>arg1:10% of the cases, <E|U+C>arg2:[e]COVID-19 patients $have $no $symptoms	49
+in <E|U+C>arg1:10% of the cases, <E|U+C>arg2:[e]COVID-19 patients $[l]do $not $show $symptoms	49
+in <E|U+C>arg1:10% of <E|U+C>arg2:flu $infections the patients are $asymptomatic	49
+in <E|U+C>arg1:10% of <E|U+C>arg2:flu $infections the patients $show $no $symptoms	49
+in <E|U+C>arg1:10% of <E|U+C>arg2:flu $infections the patients $have $no $symptoms	49
+in <E|U+C>arg1:10% of <E|U+C>arg2:flu $infections the patients $[l]do $not $show $symptoms	49
+<E|U+C>arg1:20% of <E|U+C>arg2:flu $infections are $asymptomatic	49
+<E|U+C>arg1:20 $percent of <E|U+C>arg2:flu $infections are $asymptomatic	49
+<E|U+C>arg1:20 $percent of people with <E|U+C>arg2:flu $infections have $no $symptoms	49
+the $proportion of $asymptomatic <E|U+C>arg2:[e]COVID-19 cases is <E|U+C>arg1:10%	49 
+<E|U+C>arg1:20% of people $infected $with <E|U+C>arg2:something $[l]are $asymptomatic	49
+<E|U+C>arg1:something $is $synthesized $from <E|U+C>arg2:something	50
+<E|U+C>arg1:something $is $a $derivative $of <E|U+C>arg2:something	50
+<E|U+C>arg1:something $is $a $by $product $of <E|U+C>arg2:something $synthesis	50
+<E|U+C>arg1:something $is $a $[l]by-product $of <E|U+C>arg2:something $synthesis	50
+<E|U+C>arg1:something is $manufactured $from <E|U+C>arg2:something	50
+$[w=synthesis|generation]synthesis of <E|U+C>arg1:something $from <E|U+C>arg2:something	50
+<E|U+C>arg1:it $is $a <E|U+C>arg2:purine $derivative	50
+the $conversion of <E|U+C>arg2:something $to <E|U+C>arg1:something	50
+<E|U+C>arg1:something, a <E|U+C>arg2:purine $derivative	50
+<E|U+C>arg1:something, a $derivative of <E|U+C>arg2:purine	50
+<E|U+C>arg1:something, $synthesized $from <E|U+C>arg2:something	50
+<E|U+C>arg1:[e=SIMPLE_CHEMICAL|CHEMICAL]something, which is $synthesized $from <E|U+C>arg2:something	50
+<E|U+C>arg2:purine $[l]derivative $such $as <E|U+C>arg1:something	50
+the <E|U+C>arg1:flu $[l]virus $[l]belongs $to $the $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]flu $[l]belongs $to $the $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:[e]COVID-19 $[l]belongs $to $the $family $of <E|U+C>arg2:something	51
+$the $family $of <E|U+C>arg2:something that $[l=contain|include]contains <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBSTANCE|ORGANISM_SUBDIVISION]COVID-19	51
+the <E|U+C>arg1:[e]MERS-CoV $[l]belongs $to $the $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:flu $bacteria $[l]belongs $to $the $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:flu $virus $is $a $part $of $the $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:[e]COVID-19 $is $a $part $of <E|U+C>arg2:something $family	51
+the <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]COVID-19 $is $a $part $of <E|U+C>arg2:something $family	51
+the <E|U+C>arg1:[e]MERS-CoV $is $a $part $of <E|U+C>arg2:something $family	51
+the <E|U+C>arg1:flu $bacteria $is $a $part $of <E|U+C>arg2:something $family	51
+the <E|U+C>arg1:[e]COVID-19 $is $a $part $of a $family of <E|U+C>arg2:something	51
+the <E|U+C>arg1:[e]MERS-CoV $is $a $part $of a $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:flu $bacteria $is $a $part $of a $family $of <E|U+C>arg2:something	51
+<E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE|COVID-19]flu $is $a $part $of a $family $of <E|U+C>arg2:something	51
+the <E|U+C>arg1:flu $is $a $strain $of a <E|U+C>arg2:something	51
+<E|U+C>arg1:flu, $a $strain $of <E|U+C>arg2:something	51
+<E|U+C>arg1:something $is $a $parasite in <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something, $a $parasite in <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something $is $a $parasite $infecting <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something, $a $parasite $infecting <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something which is a $parasite $infecting <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something $is $a <E|U+C>arg2:[e=ORGANISM|ORGAN|ORGANISM_SUBSTANCE]bats $parasite	52
+<E|U+C>arg1:something, $a <E|U+C>arg2:[e]bats $parasite	52
+<E|U+C>arg1:something $is $a $parasitic worm in <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something, $a $parasitic worm in <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]bats	52
+<E|U+C>arg1:something $is $a $parasitic worm $infecting <E|U+C>arg2:bats	52
+<E|U+C>arg1:something, $a $parasitic worm $infecting <E|U+C>arg2:bats	52
+<E|U+C>arg1:something $is $a $parasite $living in the lung of <E|U+C>arg2:[e]bats	52
+<E|U+C>arg1:something, $a $parasite $living in the lung of <E|U+C>arg2:[e]bats	52
+the <E|U+C>arg1:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]pig $parasite arg2:[e=ORGANISM|ORGANISM_SUBDIVISION|ORGANISM_SUBSTANCE]Anatidae	52
+<E|U+C>arg1:[e=DISEASE]disease may $[l=require|necessitate|need]require <E|U+C>arg2:[e=ORGAN]lung $transplant	53
+<E|U+C>arg1:[e=DISEASE]disease, that may $[l=require|necessitate|need]require <E|U+C>arg2:[e=ORGAN]lung $transplant	53
+<E|U+C>arg1:[e=ORGAN]Liver $transplant is a $[l=treatment|measure|operation]treatment for <E|U+C>arg2:[e=DISEASE]flu	53
+<E|U+C>arg1:[e=DISEASE]flu may $involve the <E|U+C>arg2:[e=ORGAN]liver	54
+<E|U+C>arg1:[e=DISEASE]flu with <E|U+C>arg2:[e=ORGAN]liver $involvement	54
+<E|U+C>arg2:[e=ORGAN]liver $involvement in <E|U+C>arg1:[e=DISEASE]flu	54
+<E|U+C>arg1:[e=DISEASE]flu, which may $[l]involve the <E|U+C>arg2:[e=ORGAN]liver	54
+<E|U+C>arg2:[e=ORGAN]liver may be affected from <E|U+C>arg1:[e=DISEASE]flu	54
+<E|U+C>arg2:[e=ORGAN]liver, which may be $[l=affect|influence|damage]affected from <E|U+C>arg1:[e=DISEASE]flu	54
+<E|U+C>arg1:[e=CELLULAR_COMPONENT]mitochondria is $responsible for <E|U+C>arg2:energy production	55
+<E|U+C>arg1:[e=CELLULAR_COMPONENT]mitochondria, which is $responsible for <E|U+C>arg2:energy production	55
+<E|U+C>arg2:energy $[l=produce|create|generate]produced by the <E|U+C>arg1:[e=CELLULAR_COMPONENT]mitochondria	55
+<E|U+C>arg1:[e=CELL_LINE]something is used to $[l=simulate|study|develop|measure|propagate|investigate|detect|isolate]study <E|U+C>arg2:[e=DISEASE]something	56
+<E|U+C>arg1:[e=CELL_LINE]something, which is used to $[l=simulate|study|develop|measure|propagate|investigate|detect|isolate]study <E|U+C>arg2:[e=DISEASE]something	56
+<E|U+C>arg1:[e=DISEASE|ORGANISM|ORGANISM_SUBSTANCE]something was $[l=perform|simulate|show|use|observe|measure|examine|test|establish|determine|assess|make|diagnose|utilize|isolate]studied using <E|U+C>arg2:[e=CELL_LINE]something	56
+<E|U+C>arg1:[e=DISEASE|ORGANISM|ORGANISM_SUBSTANCE]something, which was $[l=perform|simulate|show|use|observe|measure|examine|test|establish|determine|assess|make|diagnose|utilize|isolate]studied using <E|U+C>arg2:[e=CELL_LINE]something	56
+<E|U+C>arg1:[e=DISEASE|ORGANISM|ORGANISM_SUBSTANCE]something linked to <E|U+C>arg2:[e=CELL_LINE]something	56
+the $[w=examination|transduction|simulation|test|testing|determination|observation|evaluation]examination of <E|U+C>arg1:[e=DISEASE|ORGANISM|ORGANISM_SUBSTANCE]something $[w=with|using|by]with <E|U+C>arg2:[e=CELL_LINE]something	56
+it is $[word=unknown|unclear]unknown how <E|U+C>arg1:something affects <E|U+C>arg2:something	57
+$future $research is needed to examine how <E|U+C>arg1:something affects <E|U+C>arg2:something	57
+the way <E|U+C>arg1:something affects <E|U+C>arg2:something remains $elusive	57
+<E|U+C>arg1:something effect on <E|U+C>arg2:something remains $elusive	57
+<E|U+C>arg1:something $[w=can|should]can $not $be $attributed to <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something	58
+<E|U+C>arg1:something $is $not $due to <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something	58
+<E|U+C>arg1:[e=DISEASE]something $not $due $to <E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something	58
+<E|U+C>arg2:[e=ORGANISM|ORGANISM_SUBSTANCE|COVID-19]something $is $not $responsible for <E|U+C>arg1:[e=DISEASE]something	58
+<E|U+C>arg1:[e=DISEASE]something is a $differential $diagnosis for <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something $should be $differentiated from <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something, a $differential diagnosis for <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE|COVID-19]something $can $mimic <E|U+C>arg2:[e=DISEASE|COVID-19]something	59
+<E|U+C>arg1:[e=DISEASE]something $misdiagnosed $as <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something is $misdiagnosed $as <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something, which is $misdiagnosed $as <E|U+C>arg2:[e=DISEASE]something	59
+the $misdiagnosis of <>arg1:[e=DISEASE]something $as <>arg2:[e=DISEASE]something	59
+the $differential $diagnosis of <E|U+C>arg1:[e=DISEASE]something $from <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something $confused with <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE]something $is $confused with <E|U+C>arg2:[e=DISEASE]something	59
+the $differentiation of <E|U+C>arg1:[e=DISEASE]something $from <E|U+C>arg2:[e=DISEASE]something	59
+<E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu :[lemma=cause|cost]causes <E|U+C>arg2:something $$ 	60
+the :[lemma=cost|price|toll]cost of <E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu is <E|U+C>arg2:something $$	60
+<E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu, which :[lemma=cause|cost]costs <E|U+C>arg2:something $$	60
+<E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu :[lemma=cause|cost]causes <E|U+C>arg2:something $[w=dollar|USD]dollar 	60
+the :[lemma=cost|price|toll]cost of <E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu is <E|U+C>arg2:something $[w=dollar|USD]dollar	60
+<E|U+C>arg1:[e=DISEASE|ORGANISM_SUBSTANCE|ORGANISM|COVID-19]flu, which :[lemma=cause|cost]costs <E|U+C>arg2:something $[w=dollar|USD]dollar	60
+<E|U+C>arg1:something is a arg2:plant $derived $[l=drug|medicine|agent]drug	61
+<E|U+C>arg1:something is a $[l=drug|medicine|agent]drug $[l=extract|distill|obtain|derive]extracted from <E|U+C>arg2:plant	61
+<E|U+C>arg1:something, a <E|U+C>arg2:plant $derived $[l=drug|medicine|agent]drug	61
+<E|U+C>arg1:something, which is a $[l=drug|medicine|agent]drug $[l=extract|distill|obtain]extracted from <E|U+C>arg2:something	61
+<E|U+C>arg1:something, a $[l=drug|medicine|agent]drug $[l=extract|distill|obtain]extracted from <E|U+C>arg2:something	61
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]drug, a $[l=drug|medicine|agent|molecule]drug extracted $from <E|U+C>arg2:[l=plant|yeast|bacteria|soil|fungus|fungi|bark]plants	61
+<E|U+C>arg1:[e=CHEMICAL|SIMPLE_CHEMICAL]drug is a $[l=drug|medicine|agent|molecule]drug extracted $from <E|U+C>arg2:[l=plant|yeast|bacteria|soil|fungus|fungi|bark|leaf]plants	61
